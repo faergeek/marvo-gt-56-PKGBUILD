@@ -1,0 +1,3 @@
+ACTION=="add", SUBSYSTEM=="input", ENV{DEVNAME}=="/dev/input/event*", ATTRS{name}=="MARVO GT-56", RUN+="/bin/sh -c '/usr/bin/systemctl --no-block start marvo-gt-56@$DEVNAME.service'"
+
+ACTION=="remove", SUBSYSTEM=="input", ENV{DEVNAME}=="/dev/input/event*", ATTRS{name}=="MARVO GT-56", RUN+="/bin/sh -c '/usr/bin/systemctl --no-block stop marvo-gt-56@$DEVNAME.service'"

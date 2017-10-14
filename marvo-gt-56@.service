@@ -1,0 +1,5 @@
+[Unit]
+Description=Emulate Xbox 360 wireless controller with Marvo GT-56 bluetooth controller on %I
+
+[Service]
+ExecStart=/usr/bin/xboxdrv --evdev %I --config /etc/marvo-gt-56.xboxdrv
