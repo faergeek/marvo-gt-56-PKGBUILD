@@ -11,7 +11,7 @@ source=('99-marvo-gt-56.rules'
         'marvo-gt-56@.service'
         'marvo-gt-56.xboxdrv')
 md5sums=('8d066afcaa90719bdb48b60352cf8e76'
-         'cf1cd153f3bd4edbd2331bfd3831b1ec'
+         'f005986a9cc59f80a315c630617c8dcf'
          '4853a19c96b2dd412ec677c0f6b8142a')
 
 package() {
