@@ -1,5 +1,4 @@
 [xboxdrv]
-silent = true
 mimic-xpad-wireless = true
 deadzone = 4000
 deadzone-trigger = 10%
