@@ -1,6 +1,6 @@
 # Maintainer: Sergey Slipchenko <faergeek@gmail.com>
 pkgname=marvo-gt-56
-pkgver=0.0.1
+pkgver=0.0.2
 pkgrel=1
 pkgdesc="Emulate Xbox 360 wireless controller with Marvo GT-56 bluetooth controller"
 arch=('any')
@@ -11,7 +11,7 @@ source=('99-marvo-gt-56.rules'
         'marvo-gt-56@.service'
         'marvo-gt-56.xboxdrv')
 md5sums=('8d066afcaa90719bdb48b60352cf8e76'
-         'f005986a9cc59f80a315c630617c8dcf'
+         '4ce99ea07a38dfedeb4734902d2c35c9'
          'd6240b89f2a9dc95dc9f4c5d91a4d503')
 
 package() {
